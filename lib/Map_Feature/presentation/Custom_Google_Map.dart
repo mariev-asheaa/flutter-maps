@@ -106,7 +106,7 @@ class _CustomGoogleMapState extends State<CustomGoogleMap> {
 
   void initPolygon() {
     Polygon polygon=Polygon(
-        holes: [[]],//determine a hole in the polygon and calls (holo polygon)
+       //holes: [[]],//determine a hole in the polygon and calls (holo polygon)
         polygonId: PolygonId('1'),
       fillColor: Colors.black.withValues(alpha: .5),
       strokeWidth: 3,
